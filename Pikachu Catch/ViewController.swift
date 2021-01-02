@@ -123,7 +123,7 @@ class ViewController: UIViewController {
             let alert = UIAlertController(title: "Time is up. Play again?", message: nil, preferredStyle: UIAlertController.Style.alert)
             let noButton = UIAlertAction(title: "No", style: UIAlertAction.Style.cancel){ [self] (UIAlertAction) in
                 self.mainRePlayButton.isHidden = false
-//            blink()
+
                 
                 
             }
